@@ -53,7 +53,7 @@ function Assistant() {
   //     });
   //   }
   // }, []);
-
+/*
   useEffect(() => {
     const modal = document.getElementById("viewAppointmentModal");
 
@@ -81,7 +81,7 @@ function Assistant() {
       modalInstance.show();
     }
   };
-
+*/
   const handleDownloadExcel = () => {
     window.open("http://3.109.174.127:3005/downloadAppointments", "_blank");
   };
